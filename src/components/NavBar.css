@@ -1,0 +1,83 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #070707cb;
+    color: #fff;
+    padding: 10px 20px;
+    z-index: 1000; 
+    position: fixed;
+    width: 100%;
+  }
+  
+  .navbar-logo img {
+    height: 40px;
+  }
+  
+  .featured {
+    font-weight: bold;
+  }
+  
+  .buy-btn {
+    background-color: #574c96;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+
+  
+  .navbar-links {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    margin-right: 20px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .navbar-links a:hover {
+    color: #2abde2;
+  }
+
+  .ticket-buy{
+    display: block;
+  }
+ 
+  @media screen and (min-width: 769px) {
+    .ticket-buy {
+      display: none;
+    }
+  }  
+
+  @media screen and (max-width: 768px) {
+    .featured,
+    .buy-btn{
+      display: none; 
+    }
+
+    .navbar{
+      margin-top: -40px;
+      margin-bottom: -40px;
+    }
+    .ticket-buy {
+      width: 50px;
+      margin-right: 40px;
+    }
+    .navbar-logo {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .navbar-logo img {
+      height: 40px;
+    }
+    
+  }

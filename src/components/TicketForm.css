@@ -1,0 +1,103 @@
+.ticket-form-container {
+    position: relative;
+    padding: 20px;
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-image: url('src/img/pop-tarro.png');
+  }
+  
+  
+  .title-ticket {
+    text-align: left;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .p-ticket {
+    text-align: left;
+    color: #fff;
+    font-size: 15px;
+    margin-top: -20px;
+  }
+
+   
+  select,
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 30px;
+    border: 2px solid rgba(99, 113, 196, 0.623);
+    border-radius: 5px;
+  }
+  
+  .buttons-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .buttons-container button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #574c96;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buttons-container button:hover {
+    background-color: #452f77;
+  }
+
+.select-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .select-container select {
+    flex-grow: 1;
+  }
+  
+  .input-container {
+    position: relative;
+  }
+  
+  
+  
+  .input-container label {
+    position: absolute;
+    top: -15px;
+    left: 8px;
+    background-color: #574c96;
+    padding: 0 5px;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+  
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+
+  .input-movie{
+    max-width: 400px;
+  }
+
+  .p-buy{
+    color: white;
+  }
+
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 50px; 
+  }
+
+
+  
